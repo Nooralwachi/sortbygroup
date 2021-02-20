@@ -17,7 +17,7 @@ def groupbycol(filename):
 	
 	for x,y in sorted_users:
 		result.extend(y)
-		lines= ('\n').join(result)
+	lines= ('\n').join(result)
 	#print(lines)
 
 	with open('output.txt', 'w') as file:
